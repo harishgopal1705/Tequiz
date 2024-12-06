@@ -12,13 +12,19 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
 }
 
-body{
+body {
   background-color: #f7f9fc;
-  color: #333;
+  color: #212529;
 }
 
-#home{
-  background: linear-gradient(to bottom left, gray 40%, white 60%);
+@layer utilities {
+  .max-container {
+    @apply max-w-[1440px] mx-auto;
+  }
+  .container {
+    @apply max-w-[1200px] mx-auto;
+  }
 }

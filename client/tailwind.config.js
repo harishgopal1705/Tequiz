@@ -15,21 +15,19 @@ export default {
     },
     extend: {      
       fontFamily: {
-        SourceCode: ["Source Code Pro", "monospace"],
+        codystar :["Codystar", "sans-serif"],
+        sourceCode: ["Source Code Pro", "monospace"],
         archivoblack: ["Archivo Black", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],
       },
       colors: {
-        "bg-gray":"#292929",
-        "bg-white":"#f7f9fc",        
-        gray: "#7f7f7f",
-        black: "#000",
-        white: "#fff",
-        green: "#16f2b3",
-        "shade-green": "#3ccf91",
+        dark : "#0b0b0b",
+        light:"#f7f9fc",
+        gray:"#252525",
         "slate-black": "#212529",
-        "slate-gray": "#868e96 ",
         "slate-white": "#ececec",
+        "slate-gray": "#949494",
+        lightest:"#adaeb0" 
       },
       boxShadow: {
         xl: "0 0px 10px rgba(0, 0, 0, 0.1)",
@@ -40,3 +38,6 @@ export default {
   },
   plugins: [],
 };
+
+// Tints - lightens the color 
+// Shades - darkens the color
